@@ -1,0 +1,27 @@
+{
+    "mode":"development",
+    "development":{
+        "port":5000,
+        "db":{
+            "MONGO_USER": "satn363",
+            "MONGO_PASSWORD": "Admin@123",
+            "MONGO_DB": "simple-shop"
+        },
+        "JWT":{
+            "SECERT":"hackmeifyou@hacker",
+            "EXPIRE":"100h"
+        }
+    },
+    "production":{
+        "port":5000,
+        "db":{
+            "MONGO_USER": "satn363",
+            "MONGO_PASSWORD": "Admin@123",
+            "MONGO_DB": "simple-shop"
+        },
+        "JWT":{
+            "SECERT":"hackmeifyou@hacker",
+            "EXPIRE":"100h"
+        }
+    }
+}
